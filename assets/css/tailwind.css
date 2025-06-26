@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter_18pt-Regular.ttf') format('truetype');
+    font-display: swap;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Hide scrollbar across all modern browsers */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
